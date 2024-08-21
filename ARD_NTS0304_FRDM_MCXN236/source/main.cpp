@@ -2,7 +2,7 @@
 #include	"AD5161.h"
 #include	"NTS0304EUK_ARD_LDO.h"
 
-#define	I2C_SETTING
+//#define	I2C_SETTING
 
 #ifdef I2C_SETTING
 I2C			i2c( I2C_SDA, I2C_SCL );
