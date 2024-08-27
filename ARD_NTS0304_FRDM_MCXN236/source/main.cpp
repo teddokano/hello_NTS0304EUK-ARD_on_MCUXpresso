@@ -49,13 +49,13 @@ int main( void )
 				ldo2 = v2;
 
 				printf( "              %4.2f        %4.2f\r\n", va, vb );
-				wait( 0.25 );  // wait voltages settle
+				wait( 0.8 );  // wait voltages settle
 
 
 				for ( int i = 0; i < 256; i++ )
 				{
 					potentiometer	= i;
-					wait( 0.001 );
+					wait( 0.01 );
 				}
 			}
 		}
